@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/arcgis-orovalley",
   "title": "Arcgis Orovalley",
   "description": "Town of Oro Valley GIS — Oro Valley, Arizona open geospatial data (ArcGIS).",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/arcgis-orovalley",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-arcgis-orovalley",
