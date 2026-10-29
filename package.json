@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-arcgis-orovalley",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Town of Oro Valley GIS — Oro Valley, Arizona open geospatial data (ArcGIS).",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-arcgis-orovalley": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arcgis-orovalley"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-arcgis-orovalley.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/arcgis-orovalley",
   "pipeworx": {
-    "sourceHash": "v1-d985d41170b76985b968cb43c982fea68e5c81c50fb4677ca9cf6ca0e366af91",
-    "sourceCommit": "93c7d52ace03a2bb9aee5e6024f6858adab0dd04"
+    "mode": "gateway",
+    "slug": "arcgis-orovalley",
+    "gatewaySlug": "arcgis-orovalley",
+    "sourceHash": "v1-951afe4078ab4dc9c12a9bb6002fec0218491e1d19b3185dab118d0f8626c393",
+    "sourceCommit": "c6136b81713e72ccb22977ca0c0cd981f8c3f081"
   }
 }
