@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arcgis-orovalley",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Town of Oro Valley GIS — Oro Valley, Arizona open geospatial data (ArcGIS).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "arcgis-orovalley",
     "gatewaySlug": "arcgis-orovalley",
-    "sourceHash": "v1-951afe4078ab4dc9c12a9bb6002fec0218491e1d19b3185dab118d0f8626c393",
-    "sourceCommit": "c6136b81713e72ccb22977ca0c0cd981f8c3f081"
+    "sourceHash": "v1-0f5ab48fdbf6aa9851e797decabbe0aeb0df8ded319d275f07a34c661f304002",
+    "sourceCommit": "aef970216f5309cdd22a27ddfc275e472aaadac1"
   }
 }
